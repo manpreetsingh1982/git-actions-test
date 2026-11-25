@@ -4,8 +4,10 @@ name: testwf
 
 # On tells when the workflow should run
 on:
+  push:
+    branches:
+      - develop
   workflow_dispatch:
-
 # Job tells what the workflow should do
 # There can be one or more jobs
 jobs:
