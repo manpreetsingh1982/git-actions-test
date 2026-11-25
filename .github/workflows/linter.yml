@@ -18,7 +18,7 @@ jobs:
       # This step automatically clones the code
       # of the current branch into the runner
       - name: Checkout/Clone the code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # This step installs the linting tool
       - name: Install Linter
